@@ -1,5 +1,6 @@
-a=2
-b=3
-c=4
-d=a+b+c
-print(d)
+def add(a, b):
+  return a + b
+
+if __name__ == "__main__":
+  result = add(27,27)
+  print("Result:", result)
