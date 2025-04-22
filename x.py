@@ -1,6 +1,7 @@
-def add(a, b):
-    return a + b
+a = 10
+b = 5
 
-if __name__ == "__main__":
-    result = add(27,27)
-    print("Result:", result)
+sum = a+b
+
+# Display the result
+print("The sum is:", sum)
